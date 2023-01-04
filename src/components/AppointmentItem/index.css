@@ -1,0 +1,42 @@
+.appointment-item {
+  border-radius: 10px;
+  width: 100%;
+  border: 2px solid #b5b7c4;
+  padding: 5px 10px 5px 15px;
+  margin-bottom: 15px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    width: 31%;
+  }
+}
+
+.item-head-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.star {
+  width: 40px;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  font-size: 15px;
+}
